@@ -26,12 +26,12 @@
     "tailwindcss": "^4"
   },
   "lint-staged": {
-    "*{js}": [
+    "*js": [
       "eslint --fix",
       "prettier --write"
     ]
   },
-  "*{css}": [
+  "*css": [
     "prettier --write"
   ]
 }
